@@ -33,6 +33,12 @@ MT = 297.47 + 133.55 × log2(A / W + 1) (ms)
 R² = 0.8745
 ```
 
+### Experiment video
+
+[![Watch the robotic sensor attachment experiment on YouTube](https://img.youtube.com/vi/-NKPvt_S6BA/hqdefault.jpg)](https://youtu.be/-NKPvt_S6BA)
+
+[Watch the experiment recording on YouTube](https://youtu.be/-NKPvt_S6BA). Click the thumbnail to open the video.
+
 - **a = 297.47 ms:** the fitted intercept, representing the model’s estimated baseline time at ID = 0. Because the tested conditions have positive ID, this is an extrapolation rather than a directly measured zero-difficulty trial. It should not be interpreted as a pure reaction-time measurement.
 - **b = 133.55 ms/bit:** each additional bit of difficulty corresponds to an estimated 133.55 ms increase in movement time.
 - **R² = 0.8745:** the linear model accounts for approximately 87.45% of the variation in the condition-mean movement times used for that fit.
