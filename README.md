@@ -29,8 +29,8 @@ MT = a + b × log2(A / W + 1)
 The participant-reported empirical model from a completed session is:
 
 ```text
-MT = 297.47 + 133.55 × log2(A / W + 1) (ms)
-R² = 0.8745
+MT = 270.73 + 180.76 × log2(A / W + 1) (ms)
+R² = 0.8303
 ```
 
 ### Experiment video
@@ -39,9 +39,9 @@ R² = 0.8745
 
 [Watch the experiment recording on YouTube](https://youtu.be/-NKPvt_S6BA). Click the thumbnail to open the video.
 
-- **a = 297.47 ms:** the fitted intercept, representing the model’s estimated baseline time at ID = 0. Because the tested conditions have positive ID, this is an extrapolation rather than a directly measured zero-difficulty trial. It should not be interpreted as a pure reaction-time measurement.
-- **b = 133.55 ms/bit:** each additional bit of difficulty corresponds to an estimated 133.55 ms increase in movement time.
-- **R² = 0.8745:** the linear model accounts for approximately 87.45% of the variation in the condition-mean movement times used for that fit.
+- **a = 270.73 ms:** the fitted intercept, representing the model’s estimated baseline time at ID = 0. Because the tested conditions have positive ID, this is an extrapolation rather than a directly measured zero-difficulty trial. It should not be interpreted as a pure reaction-time measurement.
+- **b = 180.76 ms/bit:** each additional bit of difficulty corresponds to an estimated 180.76 ms increase in movement time.
+- **R² = 0.8303:** the linear model accounts for approximately 83.03% of the variation in the condition-mean movement times used for that fit.
 
 These coefficients were supplied by the participant; the underlying session CSV is not included in this repository. New sessions calculate their own equation and R² from their 20 condition means, without overwriting this documented reference result. Software verification runs are not participant measurements.
 
